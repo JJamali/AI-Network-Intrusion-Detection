@@ -15,8 +15,8 @@ with open(file_path, mode='r', newline='') as csvfile:
     for row in reader:
         # Ensure the row has at least 3 columns
         if len(row) >= 3:
-            # Add the entry from the third column to the set
-            unique_entries.add(row[2])
+            # Add the entry from the fourth column to the set
+            unique_entries.add(row[3])
 
 # Print each unique entry
 for entry in unique_entries:
