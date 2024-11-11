@@ -6,7 +6,9 @@ Made by Divesh Bansal and Jordan Jamali.
 
 
 
-## Proposed Groupings
+## Groupings
+
+The following service and flag fields were categorized as safe or potentially unsafe to feed to our model.
 
 ### Service
 
